@@ -1,0 +1,28 @@
+.page_selection {
+    position: fixed;
+    width: 100%;
+    height: 5%;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    /* background-blend-mode: color; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.75vw;
+    z-index: -1;
+}
+
+.page_selection .item {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.page_selection .item:last-child {
+    margin-right: 0px;
+}
+
+.page_selection .item a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
